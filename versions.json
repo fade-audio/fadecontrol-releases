@@ -1,0 +1,19 @@
+{
+  "app_id": "com.wesmoore.Fader",
+  "latest": "1.0.0",
+  "releases": [
+    {
+      "version": "1.0.0",
+      "build": 56,
+      "channel": "beta",
+      "min_macos": "13.0",
+      "published_at": "2026-02-06T00:00:00Z",
+      "notes_url": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0",
+      "dmg": {
+        "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0/MyApp-1.0.0.dmg",
+        "size": 123456789,
+        "sha256": "…"
+      }
+    }
+  ]
+}
