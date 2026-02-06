@@ -10,7 +10,7 @@
       "published_at": "2026-02-06T00:00:00Z",
       "notes_url": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-alpha.1",
       "dmg": {
-        "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0/FadeControl-Installer-1.0.0-alpha.1.dmg",
+        "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.1/FadeControl-Installer-1.0.0-alpha.1.dmg",
         "size": 6532233,
         "sha256": "656646de794994b1b9d5fa612d44faa4a5bdf611dc105285badc14fcb40398c2"
       }
