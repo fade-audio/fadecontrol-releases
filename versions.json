@@ -18,6 +18,28 @@
           "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.1/FadeControl.app.zip",
           "size": 6546071,
           "sha256": "5531fb7699b5e05d4aef63f6261ef946b79bb6d16c35917b4122fc0ad0c3f410"
+      },
+      "notes": {
+          "title": "V1.0.0 (alpha 54) Release Notes",
+          "lines": null,
+          "sections": [
+              {
+                  "title": "Features",
+                  "lines": [
+                      "Feature 1",
+                      "Feature 2"
+                  ],
+                  "sections": null
+              },
+              {
+                  "title": "Fixes",
+                  "lines": [
+                      "Fix 1",
+                      "Fix 2"
+                  ],
+                  "sections": null
+              }
+          ]
       }
     }
   ]
