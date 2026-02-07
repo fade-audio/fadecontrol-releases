@@ -1,46 +1,86 @@
 {
-  "appId": "com.wesmoore.Fader",
-  "latest": "1.0.0",
-  "releases": [
-    {
-      "version": "1.0.0",
-      "build": 54,
-      "channel": "alpha",
-      "minMacOS": "13.0",
-      "publishedAt": "2026-02-06T00:00:00Z",
-      "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-alpha.1",
-      "dmg": {
-        "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.1/FadeControl-Installer-1.0.0-alpha.1.dmg",
-        "size": 6532233,
-        "sha256": "656646de794994b1b9d5fa612d44faa4a5bdf611dc105285badc14fcb40398c2"
-      },
-      "app": {
-          "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.1/FadeControl.app.zip",
-          "size": 6546071,
-          "sha256": "5531fb7699b5e05d4aef63f6261ef946b79bb6d16c35917b4122fc0ad0c3f410"
-      },
-      "notes": {
-          "title": "V1.0.0 (alpha 54) Release Notes",
-          "lines": null,
-          "sections": [
-              {
-                  "title": "Features",
-                  "lines": [
-                      "Feature 1",
-                      "Feature 2"
-                  ],
-                  "sections": null
-              },
-              {
-                  "title": "Fixes",
-                  "lines": [
-                      "Fix 1",
-                      "Fix 2"
-                  ],
-                  "sections": null
-              }
-          ]
-      }
-    }
-  ]
+    "appId": "com.wesmoore.Fader",
+    "latest": "1.0.0",
+    "releases": [
+        {
+            "version": "1.0.0",
+            "build": 56,
+            "channel": "alpha",
+            "minMacOS": "13.0",
+            "publishedAt": "2026-02-06T00:00:00Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-alpha.2",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.2/FadeControl-Installer-1.0.0-alpha.2.dmg",
+                "size": 6644750,
+                "sha256": "170ec6772783f720f3ec70952123dc8cef8c072209c4c798506dacea251e3110"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.2/FadeControl.app.zip",
+                "size": 6655523,
+                "sha256": "129dc440097e11df4bdae01f5c7ef36560568e70e7ee5b82e4cb4473b54e173a"
+            },
+            "notes": {
+                "title": "V1.0.0 (alpha-2 build 56) Release Notes",
+                "lines": null,
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "Feature 1",
+                            "Feature 2"
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Fix 1",
+                            "Fix 2"
+                        ],
+                        "sections": null
+                    }
+                ]
+            }
+        },
+        {
+            "version": "1.0.0",
+            "build": 55,
+            "channel": "alpha",
+            "minMacOS": "13.0",
+            "publishedAt": "2026-02-06T00:00:00Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-alpha.1",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.1/FadeControl-Installer-1.0.0-alpha.1.dmg",
+                "size": 6644774,
+                "sha256": "ea1c4c192da3805ff77218d951b03d6bb4068cd26ecafe154b4ed81cb45d286f"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.1/FadeControl.app.zip",
+                "size": 6655535,
+                "sha256": "48e72b1db3e4e49ba1e5736ddc7d3fc6cface53fcaa7f6a90ff7bf779ab3d901"
+            },
+            "notes": {
+                "title": "V1.0.0 (alpha-1 build 54) Release Notes",
+                "lines": null,
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "Feature 1",
+                            "Feature 2"
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Fix 1",
+                            "Fix 2"
+                        ],
+                        "sections": null
+                    }
+                ]
+            }
+        }
+    ]
 }
