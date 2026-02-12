@@ -5,7 +5,7 @@
         {
             "version": "1.0.0",
             "build": 60,
-            "publishedAt": "2026-02-12T22:58:00Z",
+            "publishedAt": "2026-02-12T23:04:18Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-alpha.3",
             "dmg": {
                 "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.3/FadeControl-Installer-1.0.0-alpha.3.dmg",
@@ -18,7 +18,7 @@
                 "sha256": "470959fa715730925ad4975d7d861398c7a3ec499551b0efabf6c5321e65adeb"
             },
             "notes": {
-                "title": "FadeControl v1.0.0-alpha-3 Release Notes",
+                "title": "",
                 "lines": null,
                 "sections": [
                     {
@@ -32,7 +32,7 @@
                     {
                         "title": "Fixes",
                         "lines": [
-                            "Fixed some mMinor UI quirks in the preset editor"
+                            "Fixed some minor UI quirks in the preset editor"
                         ],
                         "sections": null
                     }
