@@ -4,6 +4,46 @@
     "releases": [
         {
             "version": "1.0.0",
+            "build": 60,
+            "publishedAt": "2026-02-12T23:04:18Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-alpha.3",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.3/FadeControl-Installer-1.0.0-alpha.3.dmg",
+                "size": 6682894,
+                "sha256": "40b55e4bdd77f3fd92f75c2cd23cf881986b27887f74687d102db43223eb9ec2"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.3/FadeControl.app.zip",
+                "size": 6690101,
+                "sha256": "470959fa715730925ad4975d7d861398c7a3ec499551b0efabf6c5321e65adeb"
+            },
+            "notes": {
+                "title": "",
+                "lines": null,
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "First build with pipeline",
+                            "New bundle ID"
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Fixed some minor UI quirks in the preset editor"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "alpha",
+            "channelDetail": "3",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.0.0",
             "build": 56,
             "channel": "alpha",
             "channelDetail": "2",
