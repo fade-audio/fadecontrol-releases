@@ -4,6 +4,112 @@
     "releases": [
         {
             "version": "1.0.0",
+            "build": 63,
+            "publishedAt": "2026-02-13T19:07:51Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-alpha.6",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.6/FadeControl-Installer-1.0.0-alpha.6.dmg",
+                "size": 6689609,
+                "sha256": "0f67537956edf32fb789e0752a9cc48ef54fd20310495ac7d21ee1d91e8cdc4c"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-alpha.6/FadeControl.app.zip",
+                "size": 6697762,
+                "sha256": "257857ce1f954a7a5992d5e9d625a93acfdde23623d2a606b85145927e489e67"
+            },
+            "notes": {
+                "title": "",
+                "lines": null,
+                "sections": [
+                    {
+                        "title": "Breaking Changes",
+                        "lines": [
+                            "This is the final large update before the public launch of FADE.",
+                            "Please carefully take note of the following required actions to take before updating:"
+                        ],
+                        "sections": [
+                            {
+                                "title": "App Permissions",
+                                "lines": [
+                                    "MacOS will ask again for Accessibility and Input Monitoring Permissions. You will need to re-grant both permissions and then restart the app.",
+                                    "The app's identifier changed to reflect the new company name FADE Audio, and macOS will see the app as new.",
+                                    "For the simplest transition, do this before updating: go to System Settings -> Privacy and Security. Remove (not disable) FadeControl from both the Accessibility and Input Monitoring section lists.",
+                                    "This will prevent a duplicate FadeControl item from appearing after updating."
+                                ],
+                                "sections": null
+                            },
+                            {
+                                "title": "Firmware Upgrade",
+                                "lines": [
+                                    "A firmware upgrade may be required for your device. When the updated app opens, a firmware upgrade window should appear and walk you through the process. This will be required in order to continue using FADE."
+                                ],
+                                "sections": null
+                            },
+                            {
+                                "title": "MIDI Ports",
+                                "lines": [
+                                    "MIDI Ports have been renamed for consistency. Please update your DAW to connect to the correct ports:",
+                                    "Logic: FADE Logic MCU",
+                                    "Pro Tools: FADE HUI BANK (1...4)",
+                                    "Ableton: FADE Ableton MCU",
+                                    "Cubase/Nuendo: FADE Steinberg Remote (You only need to install the new script, see below)"
+                                ],
+                                "sections": null
+                            },
+                            {
+                                "title": "Cubase/Nuendo MIDI remote script",
+                                "lines": [
+                                    "A new script is available. Please install by opening the DAW Setup window and selecting your DAW."
+                                ],
+                                "sections": null
+                            },
+                            {
+                                "title": "Presets",
+                                "lines": [
+                                    "There have been significant changes in how presets are set up given the new modifier mappings. Your presets will not migrate to the new version.",
+                                    "Please take note of your current presets before upgrading.",
+                                    "Apologies - this is a one-time event as we transition from beta to public release."
+                                ],
+                                "sections": null
+                            },
+                            {
+                                "title": "Ableton Live Mappings",
+                                "lines": [
+                                    "Ableton Live now has its own dedicated DAW category for preset mappings. It is no longer using MCU Generic mappings."
+                                ],
+                                "sections": null
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "Modifier Mappings: Now, a single preset can contain a huge set of mappings, switchable using the modifier keys on your keyboard.",
+                            "Brand new UI in support of the new preset structure. Preset editor now shows FADE connection status.",
+                            "New DAW Setup window: Assists in configuring FADE with your DAW of choice. Handles script installation when necessary.",
+                            "App update feature: Now, you can see when new versions of FadeControl are available within the preset editor. Updating is as easy as a single click. The app will be downloaded, installed, and relaunched automatically.",
+                            "Improved menu bar appearance: Icon is now a single fader instead of three. Icon and preset abbreviation menu bar appearance are more customizable in Global Settings.",
+                            "Preset switch popup UI: Now, when you use the LED button press + Knob touch/spin combo to hot-swap the presets, you can see a full list of presets and even open the preset editor.",
+                            "Improved HUI autobank. It is now faster at detecting when a bank change has completed, reducing the overall time considerably in large projects. Using 4 banks is still recommended for projects with over 150 tracks.",
+                            "Idle LED Mode: You can now configure how the LED shines when powered on but idle (for those who prefer a more subdued effect)"
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Pointer drag now works system-wide on all controls, in particular several Reaper and Ableton controls. FADE now sends mouse events directly as a HID class-compliant device."
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "alpha",
+            "channelDetail": "6",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.0.0",
             "build": 62,
             "publishedAt": "2026-02-13T00:14:27Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-alpha.5",
