@@ -5,17 +5,17 @@
         {
             "version": "1.0.0",
             "build": 65,
-            "publishedAt": "2026-02-16T20:11:21Z",
-            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-beta.1",
+            "publishedAt": "2026-02-16T20:41:12Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-beta.2",
             "dmg": {
-                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.1/FadeControl-Installer-1.0.0-beta.1.dmg",
-                "size": 6710090,
-                "sha256": "ed4658e6fbecd3b0b683ce3830c9bcfad4537772caf12bbd4f720d5f79a6fb16"
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.2/FadeControl-Installer-1.0.0-beta.2.dmg",
+                "size": 6710876,
+                "sha256": "f974f87e43066f8a6cb5a1d70e1c04241104ff199bb836f2f9ad853803bda08f"
             },
             "app": {
-                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.1/FadeControl.app.zip",
-                "size": 6717869,
-                "sha256": "8b761e6265799dbcb126deee9f6a9eb3cd2eebffaee37a58377f82e3db3ad4cd"
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.2/FadeControl.app.zip",
+                "size": 6718802,
+                "sha256": "22954c0750bb520e5c42d4bedd4aa3a5789705d5a6590586ed85b248642ca1a9"
             },
             "notes": {
                 "title": "",
@@ -99,7 +99,7 @@
                 ]
             },
             "channel": "beta",
-            "channelDetail": "1",
+            "channelDetail": "2",
             "minMacOS": "13.0"
         },
         {
