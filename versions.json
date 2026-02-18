@@ -4,6 +4,39 @@
     "releases": [
         {
             "version": "1.0.0",
+            "build": 66,
+            "publishedAt": "2026-02-18T18:44:40Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-beta.3",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.3/FadeControl-Installer-1.0.0-beta.3.dmg",
+                "size": 6702199,
+                "sha256": "8ce102f10b4d85ed46fd84070f172b6701489f3f707f4436f5f7635636ccf7a5"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.3/FadeControl.app.zip",
+                "size": 6712953,
+                "sha256": "4cf128a41c195c6935d1b05c00baffdd3d555ec246214d23fded57465f09d074"
+            },
+            "notes": {
+                "title": "Important: If you haven't already upgraded to a v1.0.0 beta, please refer to the v1.0.0 beta-2 release notes for upgrade instructions.",
+                "lines": null,
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "FadeControl will now load the last-loaded preset on launch and device connect. This way, preset selection is retained when restarting the app or device.",
+                            "Improve readability of text in all windows"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "beta",
+            "channelDetail": "3",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.0.0",
             "build": 65,
             "publishedAt": "2026-02-16T20:41:12Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-beta.2",
