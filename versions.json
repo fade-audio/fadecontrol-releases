@@ -4,6 +4,41 @@
     "releases": [
         {
             "version": "1.0.0",
+            "build": 67,
+            "publishedAt": "2026-02-21T18:42:28Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-beta.4",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.4/FadeControl-Installer-1.0.0-beta.4.dmg",
+                "size": 6703172,
+                "sha256": "80752fc87c220a07651e25aa9aaca007be8bcf64eb0467efcf74d9a71a1cb3cd"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.4/FadeControl.app.zip",
+                "size": 6714245,
+                "sha256": "815fc3805d946a8887369de567e81c3ee5de2f80531342176f74c46dcf6633d6"
+            },
+            "notes": {
+                "title": "",
+                "lines": [
+                    "Important: If you haven't already upgraded to a v1.0.0 beta, please refer to the v1.0.0 beta-2 release notes for upgrade instructions."
+                ],
+                "sections": [
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "FADE's fader values are now emitted at the appropriate interval in all cases. This requires a firmware update.",
+                            "The white LED is now properly color balanced (fix for pcb rev5 beta units)."
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "beta",
+            "channelDetail": "4",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.0.0",
             "build": 66,
             "publishedAt": "2026-02-18T18:44:40Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-beta.3",
