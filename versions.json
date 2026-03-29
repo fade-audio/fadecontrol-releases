@@ -4,6 +4,50 @@
     "releases": [
         {
             "version": "1.0.0",
+            "build": 70,
+            "publishedAt": "2026-03-29T18:33:04Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-beta.5",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.5/FadeControl-Installer-1.0.0-beta.5.dmg",
+                "size": 6725062,
+                "sha256": "d1c19ab24c6292db0756d6d9c5816d7f8cb731cb89f557d45f52667570b23ed9"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.5/FadeControl.app.zip",
+                "size": 6732820,
+                "sha256": "98efc38e103b54eefd17ec6f516598d38e03471c7abf877a9e549b34437d6838"
+            },
+            "notes": {
+                "title": "",
+                "lines": [
+                    "Important: If you haven't already upgraded to a v1.0.0 beta, please refer to the v1.0.0 beta-2 release notes for upgrade instructions."
+                ],
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "Knob menu scroll acceleration - it is now easier to use the knob to scroll through popup menus (preset/send selection).",
+                            "Pro Tools auto-bank speed and reliability increase.",
+                            "New support tab in the global settings window (export logs feature now lives here)"
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Squashed some Pro Tools auto-bank edge case bugs.",
+                            "Fix hit box detection for preset selection in menu bar dropdown"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "beta",
+            "channelDetail": "5",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.0.0",
             "build": 67,
             "publishedAt": "2026-02-21T18:42:28Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-beta.4",
