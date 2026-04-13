@@ -30,13 +30,13 @@
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-beta.5",
             "dmg": {
                 "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.5/FadeControl-Installer-1.0.0-beta.5.dmg",
-                "size": 6725062,
-                "sha256": "d1c19ab24c6292db0756d6d9c5816d7f8cb731cb89f557d45f52667570b23ed9"
+                "size": 6725218,
+                "sha256": "3e0c0c1952a0410451ade4411c673cd618ee1a9aa76d2e08aa45e0657cd6c44b"
             },
             "app": {
                 "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.5/FadeControl.app.zip",
-                "size": 6732820,
-                "sha256": "98efc38e103b54eefd17ec6f516598d38e03471c7abf877a9e549b34437d6838"
+                "size": 6732833,
+                "sha256": "7e6db1758012185d27b657a9e2cf9c981151b7c970fedb06eff07c079784158f"
             },
             "notes": {
                 "title": "",
