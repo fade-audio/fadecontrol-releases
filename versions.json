@@ -4,18 +4,39 @@
     "releases": [
         {
             "version": "1.0.0",
+            "build": 71,
+            "publishedAt": "2026-04-13T02:13:38Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0/FadeControl-Installer-1.0.0.dmg",
+                "size": 6725277,
+                "sha256": "8e5df27a1b11bf0a5ca577ee90a925393a3635a1d13e709dc38b64a3d56b25b4"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0/FadeControl.app.zip",
+                "size": 6732824,
+                "sha256": "0de107d7d9f8ea1539117b6938adec3e631a7eed03602fa4fd859227eeaaaf8c"
+            },
+            "notes": {
+                "title": "Initial public release"
+            },
+            "channel": "production",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.0.0",
             "build": 70,
-            "publishedAt": "2026-03-29T18:33:04Z",
+            "publishedAt": "2026-04-13T02:09:12Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.0-beta.5",
             "dmg": {
                 "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.5/FadeControl-Installer-1.0.0-beta.5.dmg",
-                "size": 6725062,
-                "sha256": "d1c19ab24c6292db0756d6d9c5816d7f8cb731cb89f557d45f52667570b23ed9"
+                "size": 6725218,
+                "sha256": "3e0c0c1952a0410451ade4411c673cd618ee1a9aa76d2e08aa45e0657cd6c44b"
             },
             "app": {
                 "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.0-beta.5/FadeControl.app.zip",
-                "size": 6732820,
-                "sha256": "98efc38e103b54eefd17ec6f516598d38e03471c7abf877a9e549b34437d6838"
+                "size": 6732833,
+                "sha256": "7e6db1758012185d27b657a9e2cf9c981151b7c970fedb06eff07c079784158f"
             },
             "notes": {
                 "title": "",
