@@ -1,7 +1,37 @@
 {
     "appId": "com.wesmoore.Fader",
-    "latest": "1.0.0",
+    "latest": "1.0.1",
     "releases": [
+        {
+            "version": "1.0.1",
+            "build": 75,
+            "publishedAt": "2026-04-15T22:20:49Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.1",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.1/FadeControl-Installer-1.0.1.dmg",
+                "size": 6725215,
+                "sha256": "35bc7097cc494d033aa1ec402ced1e34d5a84ab5c96baf15af3ae5ea9cfbb261"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.1/FadeControl.app.zip",
+                "size": 6733002,
+                "sha256": "9530358b32ed794c3e7ddc128752de952701277f6b55a573289d6c4c82da4690"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Fixes an issue where releasing the fader at the edge may cause the motor to not activate immediately when needed."
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "production",
+            "minMacOS": "13.0"
+        },
         {
             "version": "1.0.0",
             "build": 71,
