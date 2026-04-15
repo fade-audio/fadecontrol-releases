@@ -1,7 +1,37 @@
 {
     "appId": "com.wesmoore.Fader",
-    "latest": "1.0.1",
+    "latest": "1.0.2",
     "releases": [
+        {
+            "version": "1.0.2",
+            "build": 76,
+            "publishedAt": "2026-04-15T23:27:08Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.2",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.2/FadeControl-Installer-1.0.2.dmg",
+                "size": 6725327,
+                "sha256": "0eaf32e42554d1b98884b1dce26ae923f4a773bbfe4006423af635b99ff44114"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.2/FadeControl.app.zip",
+                "size": 6733146,
+                "sha256": "f92e2e5da130048419b51b8323d2365d79cd83f06ba0023d87458bc9004683d6"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "FadeControl no longer keeps asking for an app update."
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "production",
+            "minMacOS": "13.0"
+        },
         {
             "version": "1.0.1",
             "build": 75,
