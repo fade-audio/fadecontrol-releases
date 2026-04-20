@@ -1,7 +1,39 @@
 {
     "appId": "com.wesmoore.Fader",
-    "latest": "1.0.2",
+    "latest": "1.0.3",
     "releases": [
+        {
+            "version": "1.0.3",
+            "build": 77,
+            "publishedAt": "2026-04-20T17:48:10Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.0.3",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.3/FadeControl-Installer-1.0.3.dmg",
+                "size": 6724151,
+                "sha256": "1f73bb73a066382bb4b12396d54336b4c2a9132f86e61d801f567038fe2b44c0"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.0.3/FadeControl.app.zip",
+                "size": 6729330,
+                "sha256": "023af562b4d95eefd69c91dd91e763639782dd3f86e85eba6073b25571f6b057"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Pro Tools - Fixes a bug causing fader ramps to not track smoothly",
+                            "Pro Tools - Auto Bank/Bank to Selected Track is now more stable",
+                            "Pro Tools - Knob Press-and-spin for Pan Right now works for all 4 banks"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "production",
+            "minMacOS": "13.0"
+        },
         {
             "version": "1.0.2",
             "build": 76,
