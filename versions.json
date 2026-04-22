@@ -1,7 +1,40 @@
 {
     "appId": "com.wesmoore.Fader",
-    "latest": "1.0.3",
+    "latest": "1.1.0",
     "releases": [
+        {
+            "version": "1.1.0",
+            "build": 78,
+            "publishedAt": "2026-04-22T18:03:39Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.1.0",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.1.0/FadeControl-Installer-1.1.0.dmg",
+                "size": 6776264,
+                "sha256": "f007dce9a68f7440cc6508ad88306c4fb2a6705d5b660381bbb005dd3d89e00f"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.1.0/FadeControl.app.zip",
+                "size": 6783964,
+                "sha256": "4c62b3a8d11f4c0b2ff90ef06a49cb04fbffe74caebb860dd62a9f31ba5d2ef0"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "Pro Tools - Keystroke LED button action to immediately sync FADE with the selected track",
+                            "Pro Tools - Bank to Selected Track now shows when HUI is disconnected via purple LED color",
+                            "FadeControl now checks for updates more often and is easier to manually check for updates",
+                            "New LED keystroke button action. Execute any key command."
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "production",
+            "minMacOS": "13.0"
+        },
         {
             "version": "1.0.3",
             "build": 77,
