@@ -1,7 +1,37 @@
 {
     "appId": "com.wesmoore.Fader",
-    "latest": "1.1.0",
+    "latest": "1.1.1",
     "releases": [
+        {
+            "version": "1.1.1",
+            "build": 81,
+            "publishedAt": "2026-04-22T20:18:27Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.1.1",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.1.1/FadeControl-Installer-1.1.1.dmg",
+                "size": 6775415,
+                "sha256": "ceb21ee0831fea48e040ea28e5d67ac54b328f2d901f950515f5d94b1129e977"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.1.1/FadeControl.app.zip",
+                "size": 6784819,
+                "sha256": "f5ca89f6a2adab62b9ff7f67c17e9a1ded43b1bdcb20c128f417716c28bdf21c"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Pro Tools auto-bank fixes."
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "production",
+            "minMacOS": "13.0"
+        },
         {
             "version": "1.1.0",
             "build": 79,
