@@ -4,6 +4,44 @@
     "releases": [
         {
             "version": "1.2.0",
+            "build": 84,
+            "publishedAt": "2026-05-01T19:37:53Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.2.0",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.2.0/FadeControl-Installer-1.2.0.dmg",
+                "size": 6879566,
+                "sha256": "164a43c9918c631b53b4e06a2e709f49c7f519fce4bf9f0104da0914c67a184d"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.2.0/FadeControl.app.zip",
+                "size": 6887654,
+                "sha256": "c7e1847a6f8b8497bb86dd9dcabfbf2aaaaab79e843d746323e0b6bede325f4e"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "Added more MIDI CC actions: 14-bit, NRPN, Relative",
+                            "Incoming MIDI CC: When the fader is set up to send MIDI CC, it will reflect/motor to incoming CC from the host"
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Typing values into preset mapping editor fields now works as expected"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "production",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.2.0",
             "build": 82,
             "publishedAt": "2026-05-01T19:21:48Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.2.0",
