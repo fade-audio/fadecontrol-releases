@@ -1,7 +1,46 @@
 {
     "appId": "com.wesmoore.Fader",
-    "latest": "1.1.1",
+    "latest": "1.2.0",
     "releases": [
+        {
+            "version": "1.2.0",
+            "build": 85,
+            "publishedAt": "2026-05-02T00:33:11Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.2.0",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.2.0/FadeControl-Installer-1.2.0.dmg",
+                "size": 6879854,
+                "sha256": "1573cc5320d68c1f0ac9ef96240aed7cb60b4286d39b889fb896a160c946a72a"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.2.0/FadeControl.app.zip",
+                "size": 6888863,
+                "sha256": "9dbed0fb308232d4bc2dd30cb418267384dc7ff6daffd5575d462bdb434e137c"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "Added more MIDI CC actions: 14-bit, NRPN, Relative",
+                            "Incoming MIDI CC: When the fader is set up to send MIDI CC, it will reflect/motor to incoming CC from the host"
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Typing values into preset mapping editor fields now works as expected",
+                            "Fixes an issue where switching to a Logic preset won't immediately move the fader in sync with the selected track"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "production",
+            "minMacOS": "13.0"
+        },
         {
             "version": "1.1.1",
             "build": 81,
