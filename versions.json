@@ -3,6 +3,43 @@
     "latest": "1.2.0",
     "releases": [
         {
+            "version": "1.2.1",
+            "build": 86,
+            "publishedAt": "2026-05-02T19:13:22Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.2.1-alpha",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.2.1-alpha/FadeControl-Installer-1.2.1-alpha.dmg",
+                "size": 6884938,
+                "sha256": "40b556e3bfd4789d8c61aa7b0961c1735d019dea49dcc87a972306e4399b0381"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.2.1-alpha/FadeControl.app.zip",
+                "size": 6894585,
+                "sha256": "bc32fbc699f75fc926da64cb78e08dd7e0b220b7fb51cd566c8b58ee467a2106"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "CC setting for multiple ccs depending on mod keys, 32 total per mapping"
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            ""
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "alpha",
+            "minMacOS": "13.0"
+        },
+        {
             "version": "1.2.0",
             "build": 85,
             "publishedAt": "2026-05-02T00:33:11Z",
