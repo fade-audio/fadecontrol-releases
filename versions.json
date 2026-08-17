@@ -4,6 +4,45 @@
     "releases": [
         {
             "version": "1.4.0",
+            "build": 89,
+            "publishedAt": "2026-08-17T18:25:24Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.4.0-beta.2",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.0-beta.2/FadeControl-Installer-1.4.0-beta.2.dmg",
+                "size": 7228740,
+                "sha256": "90a487221a497e8291f99eb96661f2749f0e1f79a55d6fae93e961e189851ef6"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.0-beta.2/FadeControl.app.zip",
+                "size": 7238136,
+                "sha256": "2acac25d10e53dfb847c58c9ff444bc5d22722f2c9806883646f87596d60c952"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "Relative fader mode - keeps the motor fader at the center, and fader pushes will increment or decrement the DAW fader. Allows for extra precision when automating critical tracks where sub-decibal precision is important."
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "DAW Master Fader mode now works as expected when double-tap fader is toggled in the mapping editor view",
+                            "HUI Flip now works correctly with multiple banks"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "beta",
+            "channelDetail": "2",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.4.0",
             "build": 88,
             "publishedAt": "2026-05-20T20:57:20Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.4.0-beta.1",
