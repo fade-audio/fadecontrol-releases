@@ -4,18 +4,18 @@
     "releases": [
         {
             "version": "1.5.0",
-            "build": 92,
-            "publishedAt": "2026-08-30T21:43:39Z",
+            "build": 93,
+            "publishedAt": "2026-09-01T01:03:37Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.5.0-alpha.1",
             "dmg": {
                 "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-alpha.1/FadeControl-Installer-1.5.0-alpha.1.dmg",
-                "size": 10007257,
-                "sha256": "76fb271d514fe4a1489c194eea2399735a128cf86face149197baed121dca4e3"
+                "size": 10138031,
+                "sha256": "245c4ec9b864226b64962b91d362b10241a1ae578c6cfa5b65bd9674daa3e517"
             },
             "app": {
                 "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-alpha.1/FadeControl.app.zip",
-                "size": 10020643,
-                "sha256": "df35c1beb094e6746a64a2ff9ac453eeea4e535a7c00e6fb7523083d08ac6da7"
+                "size": 10151320,
+                "sha256": "a37e46556cce7d40b29d8d12e429efd5ad9a65285f058b420f19696708b30fb0"
             },
             "notes": {
                 "title": "",
