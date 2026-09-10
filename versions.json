@@ -4,18 +4,18 @@
     "releases": [
         {
             "version": "1.4.0",
-            "build": 92,
-            "publishedAt": "2026-09-10T14:48:56Z",
+            "build": 94,
+            "publishedAt": "2026-09-10T20:16:12Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.4.0-beta.3",
             "dmg": {
                 "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.0-beta.3/FadeControl-Installer-1.4.0-beta.3.dmg",
-                "size": 7568406,
-                "sha256": "c0adaf074b2cced6dbb006e75dba1620856578106f4cd0272af040b51c3c70b7"
+                "size": 7569619,
+                "sha256": "80c1112c4917023e5cccb9ac3449e1c0c50e16eed407e35cddd14aa5faff43d0"
             },
             "app": {
                 "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.0-beta.3/FadeControl.app.zip",
-                "size": 7578453,
-                "sha256": "92dc8157e750e1ee1db21b08547493bab185b854792c4a5b828f3d24921326a1"
+                "size": 7579067,
+                "sha256": "29835bf4891830ed346fac084276b81ec3cb67336ccf2f0e92457a90b7e2abbe"
             },
             "notes": {
                 "title": "",
@@ -23,7 +23,8 @@
                     {
                         "title": "Features",
                         "lines": [
-                            "Relative fader mode - keeps the motor fader at the center, and fader pushes will increment or decrement the DAW fader. Allows for extra precision when automating critical tracks where sub-decibal precision is important."
+                            "Relative fader mode - keeps the motor fader at the center, and fader pushes will increment or decrement the DAW fader. Allows for extra precision when automating critical tracks where sub-decibal precision is important.",
+                            "Pro Tools Automation Mode Toggle - LED now updates to current state when a new track is selected"
                         ],
                         "sections": null
                     },
