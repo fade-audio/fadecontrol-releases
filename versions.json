@@ -4,6 +4,48 @@
     "releases": [
         {
             "version": "1.4.0",
+            "build": 95,
+            "publishedAt": "2026-09-14T21:16:45Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.4.0-beta.4",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.0-beta.4/FadeControl-Installer-1.4.0-beta.4.dmg",
+                "size": 7574916,
+                "sha256": "b6c177fd9353603c0e4b7813c270808d67c40cf3ed80663e80c42cb363b27b8a"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.0-beta.4/FadeControl.app.zip",
+                "size": 7579702,
+                "sha256": "1f933c1e1443bf0d9e87d050ef7be0cd942df5c93578cce0b710afc4462a759c"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "Relative fader mode - keeps the motor fader at the center, and fader pushes will increment or decrement the DAW fader. Allows for extra precision when automating critical tracks where sub-decibal precision is important.",
+                            "Pro Tools Automation Mode Toggle - LED now updates to current state when a new track is selected"
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "DAW Master Fader mode now works as expected when double-tap fader is toggled in the mapping editor view",
+                            "HUI Flip now works correctly with multiple banks",
+                            "Improved detection of selected channels in Pro Tools",
+                            "Pro Tools auto bank status LED no longer flickers during search"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "beta",
+            "channelDetail": "4",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.4.0",
             "build": 94,
             "publishedAt": "2026-09-10T20:16:12Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.4.0-beta.3",
