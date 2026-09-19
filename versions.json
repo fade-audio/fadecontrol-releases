@@ -1,7 +1,52 @@
 {
     "appId": "com.wesmoore.Fader",
-    "latest": "1.3.0",
+    "latest": "1.4.0",
     "releases": [
+        {
+            "version": "1.4.0",
+            "build": 96,
+            "publishedAt": "2026-09-19T21:07:03Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.4.0",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.0/FadeControl-Installer-1.4.0.dmg",
+                "size": 7574996,
+                "sha256": "23cf51c0c643c77951a98411f267908686d2622b4774b0e81c40e34bfbb0de58"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.0/FadeControl.app.zip",
+                "size": 7579434,
+                "sha256": "13c4631ef94a73bb27241d0b242b5d5c0534fbaf89aefca821bbb5158e64024f"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "Relative fader mode - keeps the motor fader at the center, and fader pushes will increment or decrement the DAW fader. Allows for extra precision when automating critical tracks where sub-decibel precision is important.",
+                            "Pro Tools Automation Mode Toggle - the LED now reads the selected track's current automation mode and updates when you select a different track."
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "DAW Master Fader mode now works as expected when double-tap fader is toggled in the mapping editor view",
+                            "The fader now recovers correctly when the hardware is unplugged while the fader is being touched - previously it could stop following the DAW until the app was restarted",
+                            "FADE re-locks to the selected Pro Tools track after unplugging and replugging the hardware",
+                            "HUI Flip now works correctly with multiple banks",
+                            "Switching presets while HUI Flip is active no longer leaves the encoder assigned to the wrong pan side",
+                            "Improved detection of selected channels in Pro Tools, including when a multi-track selection collapses onto a single track",
+                            "Pro Tools auto bank search is more reliable",
+                            "Various minor Pro Tools fixes"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "production",
+            "minMacOS": "13.0"
+        },
         {
             "version": "1.4.0",
             "build": 95,
