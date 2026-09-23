@@ -3,6 +3,42 @@
     "latest": "1.4.0",
     "releases": [
         {
+            "version": "1.4.1",
+            "build": 98,
+            "publishedAt": "2026-09-23T18:59:09Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.4.1-beta.1",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.1-beta.1/FadeControl-Installer-1.4.1-beta.1.dmg",
+                "size": 7577060,
+                "sha256": "b608899929302bec61f17b57cf82aa4c40c5a9c8ec2ce1d494cab290d48c0fea"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.1-beta.1/FadeControl.app.zip",
+                "size": 7581138,
+                "sha256": "9804684a56aeb9908011dc0bc6dc5d761c22cdcc5c9a0882eb84b8c28317995a"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Fix issue regarding MIDI format in macOS 27 and Logic Pro 12.3"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "beta",
+            "channelDetail": "1",
+            "minMacOS": "13.0"
+        },
+        {
             "version": "1.4.0",
             "build": 96,
             "publishedAt": "2026-09-19T21:07:03Z",
