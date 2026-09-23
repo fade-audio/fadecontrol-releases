@@ -1,7 +1,42 @@
 {
     "appId": "com.wesmoore.Fader",
-    "latest": "1.4.0",
+    "latest": "1.4.1",
     "releases": [
+        {
+            "version": "1.4.1",
+            "build": 99,
+            "publishedAt": "2026-09-23T22:03:36Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.4.1",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.1/FadeControl-Installer-1.4.1.dmg",
+                "size": 7577039,
+                "sha256": "9f79c2895470085a1aa6ee6bd57ff8764d51fddf954b55881de83fa8177f1de8"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.1/FadeControl.app.zip",
+                "size": 7581112,
+                "sha256": "48cadd5737a471de835d91699bf049b57989767337e0ce93a802f78439292cc6"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Fix issue with Logic on macOS26 where Flip mode toggles indefinitely"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "prod",
+            "minMacOS": "13.0"
+        },
         {
             "version": "1.4.0",
             "build": 96,
