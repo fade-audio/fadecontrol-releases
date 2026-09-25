@@ -3,6 +3,44 @@
     "latest": "1.4.1",
     "releases": [
         {
+            "version": "1.4.2",
+            "build": 100,
+            "publishedAt": "2026-09-25T22:07:59Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.4.2-beta.1",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.2-beta.1/FadeControl-Installer-1.4.2-beta.1.dmg",
+                "size": 7607516,
+                "sha256": "b11e7f21d7c835083d1f55ab938ee1369ac658dafdd1e23d6fb78f0fc68a58fc"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.4.2-beta.1/FadeControl.app.zip",
+                "size": 7616826,
+                "sha256": "c4a310dba59e472346163d5d7a571494fa907afb1ab6c36622fef528807e448e"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [],
+                        "sections": null
+                    },
+                    {
+                        "title": "Fixes",
+                        "lines": [
+                            "Cubase: Fader touch events are now sent from FADE",
+                            "Cubase: Assigning the control room fader to FADE's fader now works as expected",
+                            "Removed unnecessary/broken fader to pan mappings for Cubase and Reaper"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "beta",
+            "channelDetail": "1",
+            "minMacOS": "13.0"
+        },
+        {
             "version": "1.4.1",
             "build": 99,
             "publishedAt": "2026-09-23T22:03:36Z",
