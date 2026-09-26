@@ -3,6 +3,37 @@
     "latest": "1.4.1",
     "releases": [
         {
+            "version": "1.5.0",
+            "build": 99,
+            "publishedAt": "2026-09-26T22:02:42Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.5.0-alpha.4",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-alpha.4/FadeControl-Installer-1.5.0-alpha.4.dmg",
+                "size": 10605418,
+                "sha256": "33fb3dd853c7cb3170ef288c67f054fc82ee4bcdacfd5b5cb58b2a697363a37f"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-alpha.4/FadeControl.app.zip",
+                "size": 10622987,
+                "sha256": "39c2bbf4bfb33525eec347677fff7bbfb217185158032a039c0c0f7a547ef7e8"
+            },
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Features",
+                        "lines": [
+                            "Logic OSC"
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channel": "alpha",
+            "channelDetail": "4",
+            "minMacOS": "13.0"
+        },
+        {
             "version": "1.4.1",
             "build": 99,
             "publishedAt": "2026-09-23T22:03:36Z",
