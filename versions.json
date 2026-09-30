@@ -34,7 +34,7 @@
                     }
                 ]
             },
-            "channel": "prod",
+            "channel": "production",
             "minMacOS": "13.0"
         },
         {
