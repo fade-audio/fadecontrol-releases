@@ -4,6 +4,68 @@
     "releases": [
         {
             "version": "1.5.0",
+            "build": 104,
+            "publishedAt": "2026-10-30T14:41:26Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.5.0-beta.2",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-beta.2/FadeControl-Installer-1.5.0-beta.2.dmg",
+                "size": 11576409,
+                "sha256": "ddd0fac6ed0c779265cb01c1d55c21314b71b52957d18bc52fec3afc7acf4b39"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-beta.2/FadeControl.app.zip",
+                "size": 11598097,
+                "sha256": "b60ae0340a272cf54760aef410604109dac4427c1921a68b64ce221fd1334e9a"
+            },
+            "channel": "beta",
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "New: Logic Pro over OSC (beta)",
+                        "lines": [
+                            "A new way for FADE to work with Logic Pro, in place of Mackie Control (MCU). It reaches more of Logic, including your plug-in parameters, which you can now put on the FADE knob.",
+                            "To set it up, choose Logic Pro (OSC) in FadeControl, open Logic Pro, and allow the connection to FADE when Logic asks.",
+                            "Already have Logic (MCU) presets? Choose Duplicate Presets when asked. You keep your MCU presets and get an OSC copy of each."
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Knob resolution in Logic",
+                        "lines": [
+                            "Default Resolution of Relative Controls (Global Settings) sets how far one turn of the knob moves sends and plug-in parameters: 1024 for second-generation FADE units, 256 for first-generation. FadeControl offers to switch it when you connect the other kind. Pan always sweeps from left to right in half a turn.",
+                            "Sends follow a change right away. For plug-in parameters, turn Bypass All Control Surfaces off and on again in Logic (Logic Pro > Control Surfaces).",
+                            "Each plug-in parameter on the knob also has its own resolution slider, from coarse to fine. At a given setting, coarse and fine parameters sweep in about the same number of turns. Changes apply on the next turn, with no Logic refresh needed.",
+                            "Tick Switch/Menu Mode for a menu or switch to step through every value. FadeControl ticks it for you when the plug-in says the parameter is a menu."
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Ableton Live via custom script",
+                        "lines": [
+                            "Ableton can now be controlled by FADE over a custom script, unlocking a lot of additional functionality.",
+                            "FADE now follows track selection seamlessly without any need to shift banks",
+                            "FADE can now control return tracks",
+                            "FADE can now control the last selected parameter, on both the knob and the fader.",
+                            "FADE can lock the current selected parameter to the knob or fader, so that changes in the selection won't affect what FADE controls."
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Before you go back to 1.4.1",
+                        "lines": [
+                            "FadeControl 1.4.1 can't keep Logic OSC mappings. Export your presets first (File > Export Presets\u2026), and import them again after you update.",
+                            "Found a problem? Send us your logs from Global Settings > Support > Export Logs."
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channelDetail": "2",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.5.0",
             "build": 102,
             "publishedAt": "2026-10-20T21:16:42Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.5.0-beta.1",
