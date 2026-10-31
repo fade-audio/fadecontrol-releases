@@ -4,6 +4,37 @@
     "releases": [
         {
             "version": "1.5.0",
+            "build": 105,
+            "publishedAt": "2026-10-31T03:53:54Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.5.0-beta.3",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-beta.3/FadeControl-Installer-1.5.0-beta.3.dmg",
+                "size": 11579893,
+                "sha256": "8cf20f4a9543abb07b28f4f527ea850e23e65df4f0f41a010873cd4648557171"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-beta.3/FadeControl.app.zip",
+                "size": 11601203,
+                "sha256": "5327ba209c63d86a1a247d46c8053830d201b6348dc8ee44570e75c907cb0363"
+            },
+            "channel": "beta",
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Logic Pro over OSC",
+                        "lines": [
+                            "Double-tapping the knob to reset pan now centres it every time, not just the first time on each track."
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channelDetail": "3",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.5.0",
             "build": 104,
             "publishedAt": "2026-10-30T14:41:26Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.5.0-beta.2",
