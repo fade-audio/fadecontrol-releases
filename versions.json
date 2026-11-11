@@ -4,6 +4,55 @@
     "releases": [
         {
             "version": "1.5.0",
+            "build": 106,
+            "publishedAt": "2026-11-11T22:18:34Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.5.0-beta.4",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-beta.4/FadeControl-Installer-1.5.0-beta.4.dmg",
+                "size": 11702449,
+                "sha256": "53b254b5993f94e7a6d1283197477af978c4245ad61e6a46f883d446ff8b7779"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-beta.4/FadeControl.app.zip",
+                "size": 11721912,
+                "sha256": "805acfcadb0a683650abd03f4c905b2e9219dcc0550fa21c3103e15171c7674e"
+            },
+            "channel": "beta",
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Ableton Live",
+                        "lines": [
+                            "The parameter popup now fades as soon as you let go of FADE, instead of waiting half a second first.",
+                            "With the knob and the fader both on Selected Parameter, the popup shows a separate box for each, knob first.",
+                            "Double-tap a Selected Parameter control to lock or unlock it. The lock icon in the popup lights briefly to confirm. To turn this off, untick Double Tap to Lock on the action.",
+                            "The knob now turns pan, sends and selected parameters at the same rate as Live's on-screen dials. The knob's Sensitivity setting scales it from there.",
+                            "The fader now matches Live's own volume fader position taper."
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Mouse Pointer Drag",
+                        "lines": [
+                            "After a fader drag, the fader returns to centre once it is more than 5% away from it (was 25%)."
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Other",
+                        "lines": [
+                            "Modifier keys held by another app, such as a mouse button set to Shift in Logi Options+, now work with FADE's modifier mappings."
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channelDetail": "4",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.5.0",
             "build": 105,
             "publishedAt": "2026-10-31T03:53:54Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.5.0-beta.3",
