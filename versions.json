@@ -4,6 +4,64 @@
     "releases": [
         {
             "version": "1.5.0",
+            "build": 107,
+            "publishedAt": "2026-11-17T20:57:01Z",
+            "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.5.0-beta.5",
+            "dmg": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-beta.5/FadeControl-Installer-1.5.0-beta.5.dmg",
+                "size": 11959512,
+                "sha256": "a58e42a1ddf029ec6331fee4a935d8337a5629b36c840dfb3a7e16b909d5e68e"
+            },
+            "app": {
+                "url": "https://github.com/fade-audio/fadecontrol-releases/releases/download/v1.5.0-beta.5/FadeControl.app.zip",
+                "size": 11973053,
+                "sha256": "d9ad60892adb2d29546799b77e85ef022d4c9f71931c783f74f4048a5a96c4bf"
+            },
+            "channel": "beta",
+            "notes": {
+                "title": "",
+                "sections": [
+                    {
+                        "title": "Pro Tools",
+                        "lines": [
+                            "New Selected Track Sync setting in Global Settings, replacing the auto bank switch. Scripting, the new default, asks Pro Tools which track is selected and banks straight to it. Bank Search is the earlier method. Manual never banks on its own.",
+                            "The Bank to Selected Track button mapping can now use Scripting, Bank Search or the keystroke.",
+                            "When you open a session with Pro Tools already connected, FADE now finds the selected track without waiting for a new selection.",
+                            "The Automation Mode LED color now follows the track FADE has just banked to.",
+                            "Bank Search now finds a track you click while a search is still running."
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Ableton Live",
+                        "lines": [
+                            "With the fader on Selected Parameter and a track volume selected, FADE's fader now matches the position of Live's own fader",
+                            "Parameter popup fade refinements."
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Mouse Pointer Drag",
+                        "lines": [
+                            "New speed modifier that works mid-drag.",
+                            "Fixed a strange bug where using a modifier mapping on the knob can stop a fader mouse drag from working."
+                        ],
+                        "sections": null
+                    },
+                    {
+                        "title": "Logic Pro",
+                        "lines": [
+                            "FADE's controller assignments now sit in a single zone in Logic's Controller Assignments window."
+                        ],
+                        "sections": null
+                    }
+                ]
+            },
+            "channelDetail": "5",
+            "minMacOS": "13.0"
+        },
+        {
+            "version": "1.5.0",
             "build": 106,
             "publishedAt": "2026-11-11T22:18:34Z",
             "notesUrl": "https://github.com/fade-audio/fadecontrol-releases/releases/tag/v1.5.0-beta.4",
